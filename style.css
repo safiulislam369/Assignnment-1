@@ -254,18 +254,25 @@ body {
   color: #0b1b2b;
 }
 
-.solution-content li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 4px;
-  width: 20px;
-  height: 20px;
-  background-image: url("images/CheckCircle.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+.features {
+  list-style: none;
+  padding: 0;
 }
 
+.features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #0b1b2b;
+}
+
+.features li img {
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
 .last-part {
   background: #f7f6f2;
   padding: 80px 40px;
